@@ -33,7 +33,7 @@ var operator=null;
           operand2=null;
         } else if(value=='negative'){
           if(display.innerText[0]=='-'){
-            display.innerText[0]=' ';
+//             display.innerText[0]=' ';
             display.innerText=display.innerText
           }else{
           display.innerText='-'+display.innerText;
