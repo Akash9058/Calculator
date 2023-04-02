@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+#calculator {
+  width: 20%;
+  height: 70%;
+  min-width: 300px;
+  min-height: 400px;
+  outline: none;
+}
+
+#displayCalculator {
+  font-size: 2.8rem;
+  width: 95%;
+  height: 100px;
+  background-color: rgb(225, 220, 220);
+  border: 2px solid brown;
+}
+
+.button {
+  width: 23%;
+  height: 15%;
+  display: inline-block;
+  background-color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  cursor: pointer;
+}
+
+#arithmetic {
+  width: 23%;
+  background-color: brown;
+}
+#zero {
+  width: 47.3%;
+}
